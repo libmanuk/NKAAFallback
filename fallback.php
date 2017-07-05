@@ -1,4 +1,7 @@
 <?php
+
+# @copyright Copyright 2017 Eric C. Weig 
+
 # Legacy NKAA Pattern: /record.php?note_id=3035
 # Omeka Pattern: /nkaa/items/show/3035
 
