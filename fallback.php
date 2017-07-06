@@ -141,10 +141,8 @@ elseif (preg_match('/^\/director\_about.php/', $_SERVER['REQUEST_URI'], $output_
     }
     
     else {
-        $protocal = "https://";
-        $domain = "ukscrc001.net";
         $path = "/default.html";
-        $newURL = "$protocal$domain$path";
+        $newURL = "$path";
         header('Location: '.$newURL);
     }
     exit;
